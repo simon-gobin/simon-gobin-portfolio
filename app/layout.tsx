@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://simon-gobin-portfolio.clean-kid-8562.chatgpt.site"),
+  metadataBase: new URL(
+    "https://simon-gobin-portfolio.gemma-simon-gobin.chatgpt.site",
+  ),
   title: "Simon Gobin — Data, Investigation & AI",
   description:
     "Portfolio of Simon Gobin, an Apple fraud investigator, data analyst and AI builder based in Cork, Ireland.",
