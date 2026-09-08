@@ -155,6 +155,19 @@ nav a:hover,
   font-weight: 400;
 }
 
+.hero-role {
+  margin: -2vh 0 5vh;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2rem, 4vw, 4.5rem);
+  line-height: 1;
+  letter-spacing: -0.045em;
+}
+
+.hero-role em {
+  color: var(--signal);
+  font-weight: 400;
+}
+
 .hero-bottom {
   display: grid;
   grid-template-columns: minmax(280px, 560px) 1fr;
@@ -690,7 +703,12 @@ footer {
 
   .hero h1 {
     margin: 5rem 0 3rem;
-    font-size: clamp(3.5rem, 17vw, 5.4rem);
+    font-size: clamp(4rem, 19vw, 5.8rem);
+  }
+
+  .hero-role {
+    margin: -1.5rem 0 3rem;
+    font-size: clamp(1.7rem, 8vw, 2.4rem);
   }
 
   .hero-bottom {

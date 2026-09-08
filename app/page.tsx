@@ -186,10 +186,11 @@ export default function Home() {
           <span>Open to relocation</span>
         </div>
         <h1 className="reveal reveal-2">
-          Technical investigation.
-          <br />
-          <em>Data + AI.</em>
+          Simon <em>Gobin.</em>
         </h1>
+        <p className="hero-role reveal reveal-2">
+          Technical investigation <em>· Data + AI</em>
+        </p>
         <div className="hero-bottom reveal reveal-3">
           <p>
             I investigate complex systems, identify patterns and root causes, and
