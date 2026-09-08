@@ -47,17 +47,22 @@ const projects = [
   },
   {
     index: "03",
-    category: "Internal Innovation / Secure AI",
-    title: "SDS workforce intelligence tool",
+    category: "NLP / Low-resource language",
+    title: "Irish-to-English speech translation",
     summary:
-      "A secure internal prototype that translated natural-language requests into workforce analysis without exposing raw sensitive data to the LLM layer.",
+      "A reproducible cascade benchmark comparing specialist and general-purpose ASR and translation models across the full IWSLT 2023 Irish-English development set.",
     metrics: [
-      ["3", "global locations"],
-      ["2", "LLM providers"],
-      ["1", "secure data boundary"],
+      ["24.62", "best BLEU score"],
+      ["46.50", "best chrF++ score"],
+      ["1,120", "audio utterances"],
     ],
-    tags: ["Snowflake", "DuckDB", "Claude", "Gemini", "RIO / Shuri"],
-    links: [],
+    tags: ["Python", "NLP", "Wav2Vec2", "NLLB", "Hugging Face"],
+    links: [
+      {
+        label: "View GitHub",
+        href: "https://github.com/simon-gobin/LLM_cascade_translation_benchmark",
+      },
+    ],
   },
   {
     index: "04",
