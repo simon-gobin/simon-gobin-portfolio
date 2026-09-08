@@ -122,11 +122,11 @@ const expertise = [
     detail: "Python, SQL, Snowflake, Tableau, DuckDB and Google Cloud",
   },
   {
-    label: "Investigation",
-    detail: "Fraud patterns, anomaly detection, evidence and decision quality",
+    label: "Technical Investigation",
+    detail: "Pattern recognition, anomaly triage, root cause analysis and clear findings",
   },
   {
-    label: "Delivery",
+    label: "AI Product & Delivery",
     detail: "Stakeholder discovery, technical storytelling and secure workflows",
   },
 ];
@@ -186,14 +186,14 @@ export default function Home() {
           <span>Open to relocation</span>
         </div>
         <h1 className="reveal reveal-2">
-          Investigation
+          Technical investigation.
           <br />
-          meets <em>intelligence.</em>
+          <em>Data + AI.</em>
         </h1>
         <div className="hero-bottom reveal reveal-3">
           <p>
-            Fraud investigator turned AI builder, combining data, reasoning and
-            human-centred systems to make complex decisions clearer.
+            I investigate complex systems, identify patterns and root causes, and
+            use data and AI to turn findings into reliable, practical improvements.
           </p>
           <div className="hero-actions">
             <a className="button button-primary" href="#work">
@@ -205,7 +205,7 @@ export default function Home() {
           </div>
         </div>
         <div className="hero-mark" aria-hidden="true">
-          DATA / AI / FRAUD
+          SYSTEMS / DATA / AI
         </div>
       </section>
 
@@ -215,8 +215,8 @@ export default function Home() {
         </div>
         <div className="about-copy">
           <p className="lead">
-            I work where <em>human judgement</em>, data and artificial
-            intelligence intersect.
+            I turn complex signals into <em>root causes</em>, reliable decisions
+            and better systems.
           </p>
           <div className="about-detail">
             <p>
