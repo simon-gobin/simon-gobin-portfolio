@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_SITE_URL ??
-      "https://simon-gobin-portfolio.gemma-simon-gobin.chatgpt.site",
+      "https://simon-gobin-portfolio.vercel.app",
   ),
   title: "Simon Gobin — Data, Investigation & AI",
   description:
