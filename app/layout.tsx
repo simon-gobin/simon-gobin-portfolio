@@ -3,7 +3,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    "https://simon-gobin-portfolio.gemma-simon-gobin.chatgpt.site",
+    process.env.NEXT_PUBLIC_SITE_URL ??
+      "https://simon-gobin-portfolio.gemma-simon-gobin.chatgpt.site",
   ),
   title: "Simon Gobin — Data, Investigation & AI",
   description:
