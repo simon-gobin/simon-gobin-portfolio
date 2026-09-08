@@ -87,6 +87,29 @@ const projects = [
       },
     ],
   },
+  {
+    index: "05",
+    category: "Computer Vision / Deep Learning",
+    title: "Flower classification benchmark",
+    summary:
+      "A controlled comparison of CNN augmentation, soft-voting ensembles, deep feature extraction and MobileNetV2 fine-tuning across 17 flower classes.",
+    metrics: [
+      ["84.41%", "best validation accuracy"],
+      ["+10.59", "points vs frozen baseline"],
+      ["17", "image classes"],
+    ],
+    tags: ["TensorFlow", "Keras", "MobileNetV2", "Transfer learning"],
+    links: [
+      {
+        label: "View GitHub",
+        href: "https://github.com/simon-gobin/deep-learning-flower-classification",
+      },
+      {
+        label: "Watch presentation",
+        href: "https://youtu.be/mjtaVn8wc1Q?si=6VKqoZktoCMPA6nJ",
+      },
+    ],
+  },
 ];
 
 const expertise = [
