@@ -125,6 +125,35 @@ nav a:hover,
   z-index: 1;
 }
 
+.application-context {
+  width: fit-content;
+  max-width: 42rem;
+  margin-bottom: 1.5rem;
+  padding: 0.8rem 1rem;
+  border-left: 3px solid var(--signal);
+  background: rgba(255, 255, 255, 0.58);
+}
+
+.application-context span {
+  display: block;
+  margin-bottom: 0.2rem;
+  color: var(--signal);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.application-context strong {
+  display: block;
+  font-size: 0.9rem;
+}
+
+.application-context p {
+  margin: 0.25rem 0 0;
+  font-size: 0.83rem;
+}
+
 .hero-kicker {
   display: flex;
   justify-content: space-between;

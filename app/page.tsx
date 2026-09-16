@@ -158,11 +158,17 @@ const education = [
   ["2023", "Diploma in Corporate Fraud Investigation", "City Colleges Dublin"],
 ];
 
+export type ApplicationContext = {
+  role: string;
+  focus: string;
+  cvHref: string;
+};
+
 function Arrow() {
   return <span aria-hidden="true">↗</span>;
 }
 
-export default function Home() {
+export default function Home({ applicationContext }: { applicationContext?: ApplicationContext }) {
   return (
     <main>
       <header className="site-header">
@@ -181,6 +187,13 @@ export default function Home() {
       </header>
 
       <section className="hero" id="top">
+        {applicationContext && (
+          <div className="application-context reveal reveal-1">
+            <span>Application portfolio</span>
+            <strong>{applicationContext.role}</strong>
+            <p>{applicationContext.focus}</p>
+          </div>
+        )}
         <div className="hero-kicker reveal reveal-1">
           <span>Cork, Ireland</span>
           <span>Open to relocation</span>
@@ -200,7 +213,7 @@ export default function Home() {
             <a className="button button-primary" href="#work">
               Explore my work <Arrow />
             </a>
-            <a className="button button-quiet" href="/Simon-Gobin-CV.pdf" download>
+            <a className="button button-quiet" href={applicationContext?.cvHref ?? "/Simon-Gobin-CV.pdf"} download>
               Download CV <span aria-hidden="true">↓</span>
             </a>
           </div>
