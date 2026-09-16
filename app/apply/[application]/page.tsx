@@ -31,5 +31,18 @@ export default async function ApplicationPage({
     );
   }
 
+  if (application === "apple-ets-site-reliability-engineer-2026") {
+    return (
+      <Home
+        applicationContext={{
+          role: "Apple Site Reliability Engineer · Enterprise Technology Services",
+          focus:
+            "Technical investigation, Python automation and reliable data workflows for service operations.",
+          cvHref: "/Simon-Gobin-Apple-ETS-SRE-CV.pdf",
+        }}
+      />
+    );
+  }
+
   return <Home />;
 }
