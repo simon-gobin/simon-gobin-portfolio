@@ -44,5 +44,18 @@ export default async function ApplicationPage({
     );
   }
 
+  if (application === "whatnot") {
+    return (
+      <Home
+        applicationContext={{
+          role: "Whatnot · Application portfolio",
+          focus:
+            "Selected software, data and AI projects focused on practical problem solving and reliable delivery.",
+          cvHref: "/Simon-Gobin-CV.pdf",
+        }}
+      />
+    );
+  }
+
   return <Home />;
 }
