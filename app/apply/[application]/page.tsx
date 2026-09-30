@@ -18,6 +18,19 @@ export default async function ApplicationPage({
 }) {
   const { application } = await params;
 
+  if (application === "apple-sds-technical-analyst-200684428") {
+    return (
+      <Home
+        applicationContext={{
+          role: "Apple Technical Analyst · Strategic Data Solutions",
+          focus:
+            "Fraud investigation, Python and SQL analysis, and operational reporting informed by hands-on SDS experience.",
+          cvHref: "/Simon-Gobin-Apple-SDS-Technical-Analyst-CV.pdf",
+        }}
+      />
+    );
+  }
+
   if (application === "apple-bpr-software-engineer-graduate-2026") {
     return (
       <Home
