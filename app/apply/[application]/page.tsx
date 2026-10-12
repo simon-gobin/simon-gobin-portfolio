@@ -18,6 +18,19 @@ export default async function ApplicationPage({
 }) {
   const { application } = await params;
 
+  if (application === "apple-ets-insight-technical-analyst-200684581-1418") {
+    return (
+      <Home
+        applicationContext={{
+          role: "Apple Technical Analyst · ETS Insight",
+          focus:
+            "Technical investigation, data integrity and operational reporting, combining AppleCare support with SDS QBA experience and practical AI projects.",
+          cvHref: "/Simon-Gobin-Apple-ETS-Insight-Technical-Analyst-CV.pdf",
+        }}
+      />
+    );
+  }
+
   if (application === "apple-sds-technical-analyst-200684428") {
     return (
       <Home
