@@ -18,6 +18,19 @@ export default async function ApplicationPage({
 }) {
   const { application } = await params;
 
+  if (application === "laya-senior-provider-relations-analyst-28653") {
+    return (
+      <Home
+        applicationContext={{
+          role: "Laya Healthcare · Senior Provider Relations Analyst",
+          focus:
+            "Operational analytics, Tableau and SQL reporting, data quality and stakeholder collaboration, supported by a background in healthcare education.",
+          cvHref: "/Simon-Gobin-Laya-Provider-Relations-CV.pdf",
+        }}
+      />
+    );
+  }
+
   if (application === "apple-ets-insight-technical-analyst-200684581-1418") {
     return (
       <Home
